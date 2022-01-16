@@ -1,0 +1,48 @@
+-----------------------------------------------------------------------------------
+int myNum = 5;
+double myDoubleNum = 5.99D;
+char myLetter = 'D';
+bool myBool = true;
+string myText = "Hello";
+-----------------------------------------------------------------------------------
+Console.WriteLine("Hei, hva heter du?");
+string firstName = Console.ReadLine();
+
+Console.WriteLine("Hei " + firstName + " Hva er ditt etternavn?");
+string lastName = Console.ReadLine();
+
+string myName = firstName + " " + lastName;
+Console.WriteLine("Hei " + myName);
+
+Console.WriteLine("Hvor gammel er du?");
+int age = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Din \\alder\\ er " + age);
+------------------------------------------------------------------------------------
+
+   Less than: a < b
+   Less than or equal to: a <= b
+   Greater than: a > b
+   Greater than or equal to: a >= b
+   Equal to a == b
+   Not Equal to: a != b 
+-------------------------------------------------------------------------------------          
+
+int name = 3;
+switch (name)
+{
+    case 1:
+        Console.WriteLine("Janne");
+        break;
+    case 2:
+        Console.WriteLine("Vilde");
+        break;
+    case 3:
+        Console.WriteLine("Stine");
+        break;
+    case 4:
+        Console.WriteLine("Erlend");
+        break;
+}
+--------------------------------------------------------------------------------------
+*/
